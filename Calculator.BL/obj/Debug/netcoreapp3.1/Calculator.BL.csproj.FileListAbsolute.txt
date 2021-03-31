@@ -1,0 +1,8 @@
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\bin\Debug\netcoreapp3.1\Calculator.BL.deps.json
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\bin\Debug\netcoreapp3.1\Calculator.BL.dll
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\bin\Debug\netcoreapp3.1\Calculator.BL.pdb
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\obj\Debug\netcoreapp3.1\Calculator.BL.AssemblyInfoInputs.cache
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\obj\Debug\netcoreapp3.1\Calculator.BL.AssemblyInfo.cs
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\obj\Debug\netcoreapp3.1\Calculator.BL.csproj.CoreCompileInputs.cache
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\obj\Debug\netcoreapp3.1\Calculator.BL.dll
+C:\Users\Klara\source\repos\Calculator\Calculator.BL\obj\Debug\netcoreapp3.1\Calculator.BL.pdb

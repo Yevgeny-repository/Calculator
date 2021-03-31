@@ -1,0 +1,43 @@
+<h1>Calculator page</h1>
+<div class="container form-group">
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <div class="form-group row">
+            <label for="expr"> Arithmetic expression
+            </label>
+            <input type="text" class="form-control" id="expr" formControlName="expr" required>
+            <span class="text-danger"
+                *ngIf="submitted && userForm.controls['expr'].errors?.required">
+                Arithmetic expression is required
+            </span>
+            <span class="text-danger"
+                *ngIf="submitted && userForm.controls['expr'].hasError('minlength')">
+                Arithmetic expression must consisting at least two single digits and one of the
+                four basic arithmetic operations
+            </span>  
+        </div>   
+        <div class="form-group row">
+            <div>
+                <button type="submit" class="btn btn-primary">Calculate</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <table class="table table-striped" *ngIf="historyModel.length > 0">
+                <thead>
+                    <tr class="header">
+                    <th scope="col">Input</th>
+                    <th scope="col">Output</th>
+                    </tr>
+                </thead>
+                <tr *ngFor="let model of historyModel">
+                <td>{{ model.expr }}</td>
+                <td>{{ model.result }}</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <a [routerLink]="['/home-page']">Back to home page</a>
+        </div>
+      </form>
+</div>
+<ngx-notifier></ngx-notifier>
